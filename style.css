@@ -3,14 +3,19 @@ body {
     font-family: sans-serif;
 }
 
+/* Code works better with Portrait Image  */
 .bg-image {
     width: 100%;
     height: 100vh;
-    background: url("https://plus.unsplash.com/premium_photo-1663047201632-4045f1e2d8b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    /* Landscape Image  */
+    /* background: url("https://plus.unsplash.com/premium_photo-1663047201632-4045f1e2d8b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"); */
+    
+    /* Portrait Image  */
+    background: url("https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
     background-position: center;
     background-attachment: fixed;
-    /* If image is 1920 x 1080 (Protrait)
-    background-size: 160%; */
+    /* If image is 1920 x 1080 (Portrait)*/
+    background-size: 160%;
 }
 
 .container{
